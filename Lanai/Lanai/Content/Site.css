@@ -1,0 +1,25 @@
+﻿.intro-photo {
+    display: block;
+    min-height: 100%;
+    position: relative;
+    background-image: url(/Images/4H9A8705.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.overlay-photo{
+    background: rgba(23,118,247,0.2);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00333333',endColorstr='#8c333333',GradientType=0);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+}
+body, html {
+    height: 100%;
+    position:relative;
+    margin: 0px;
+}
+.container{
+    height:500px
+}
