@@ -1,4 +1,8 @@
-﻿.intro-photo {
+﻿/* tab and photo*/
+.overlay-photo{
+    color: #fff;
+}
+.intro-photo {
     display: block;
     min-height: 100%;
     position: relative;
@@ -30,7 +34,6 @@ body, html {
 }
 .intro-text h1{
 	font-size: 60px;
-	color: #fff; 
     padding-left:20%;
     padding-right:20%;
     font-weight:bolder;
@@ -52,7 +55,6 @@ body, html {
 	-webkit-box-shadow: 0 0 20px rgba(52,75,123,.15);
 	-moz-box-shadow: 0 0 20px rgba(52,75,123,.15);
 	box-shadow: 0 0 20px rgba(52,75,123,.15);
-    color: #fff;
 }
 .tab-menu li:last-child{
     width: 180px;
@@ -61,10 +63,8 @@ body, html {
 	-webkit-box-shadow: 0 0 20px rgba(52,75,123,.15);
 	-moz-box-shadow: 0 0 20px rgba(52,75,123,.15);
 	box-shadow: 0 0 20px rgba(52,75,123,.15);
-    color: #fff;
 }
 .tab-menu .tab-holder-middle{
-    color: #fff;
 }
 .tab-menu .tab-title{
     font-family: Montserrat;
@@ -114,4 +114,14 @@ body, html {
 }
 .tab-menu .tab-holder-middle, .tab-menu .tab-holder-middle i.fa, .tab-menu .tab-holder-middle .tab-title{
     width:150px;
+}
+/* top menu*/
+
+section.top-menu{
+    padding-top:60px;
+}
+#logo{
+    font-family: Arial;
+	font-size: 24px;
+	font-weight: bold;
 }
