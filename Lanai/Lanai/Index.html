@@ -2,41 +2,44 @@
 <html>
 <head>
     <title></title>
-	<meta charset="utf-8" />
+    <meta charset="utf-8" />
     <link href="Content/Site.css" rel="stylesheet" />
     <link href="Content/bootstrap.min.css" rel="stylesheet" />
     <link href="Content/font-awesome.min.css" rel="stylesheet" />
 </head>
-<body>
-    <div class="intro-photo">
-       
-    </div>   
-    <div class="overlay-photo">
-        <section class="intro-text">
-            <h1>Explore the rich natural and cultural history of Lānaʻi.</h1>
-            <span>Please select an option</span>
-        </section>
-        <section class="tab-menu">
-            <ul>
-                <li class="active">
+<body ng-app="lanaiApp" ng-controller="homeController">
+        <div class="intro-photo">
+
+        </div>
+        <div class="overlay-photo">
+            <section class="intro-text">
+                <h1>Explore the rich natural and cultural history of Lānaʻi.</h1>
+                <span>Please select an option</span>
+            </section>
+            <section class="tab-menu">
+                <ul>
+                    <li class="active">
                         <i class="fa fa-compass"></i>
                         <span class="tab-title">Explorer</span>
-                </li>
-                <li class="tab-holder-middle">
-                    <i class="fa fa-map-o"></i>
-                    <span class="tab-title">Places</span>
-                </li>
-                <li class="tab-holder-middle">
-                    <i class="fa fa-male"></i>
-                    <span class="tab-title">Hikes</span>
-                </li>
-                <li >
-                    <i class="fa fa-cab"></i>
-                    <span class="tab-title">Driving Tour</span>
-                </li>
-            </ul>
-        </section>
-    </div>
-    <div class="container"></div>
+                    </li>
+                    <li class="tab-holder-middle">
+                        <i class="fa fa-map-o"></i>
+                        <span class="tab-title">Places</span>
+                    </li>
+                    <li class="tab-holder-middle">
+                        <i class="fa fa-male"></i>
+                        <span class="tab-title">Hikes</span>
+                    </li>
+                    <li>
+                        <i class="fa fa-cab"></i>
+                        <span class="tab-title">Driving Tour</span>
+                    </li>
+                </ul>
+            </section>
+        </div>
+        <div class="container"></div>       
+    <script src="Scripts/jquery-3.0.0.min.js"></script>
+    <script src="Scripts/angular.min.js"></script>
+    <script src="Scripts/app/homeCtrl.js"></script>
 </body>
 </html>
