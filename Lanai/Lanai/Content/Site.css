@@ -40,7 +40,7 @@ body, html {
 	font-size: 14px;
 	font-weight: bold;
 	text-transform: uppercase;
-	color: #fefefe;
+	color: #e4e4e4;
 }
 .tab-menu{
     margin-top:50px;
@@ -56,6 +56,10 @@ body, html {
 	-moz-box-shadow: 0 0 20px rgba(52,75,123,.15);
 	box-shadow: 0 0 20px rgba(52,75,123,.15);
     color: #fff;
+}
+.tab-menu .tab-holder-middle{
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.16);
 }
 .tab-menu .tab-title{
     font-family: Montserrat;
@@ -75,6 +79,10 @@ body, html {
 }
 .tab-menu li{
     position:relative;
+    border-right: 1px solid rgba(69,75,74,1);
+}
+.tab-menu li:last-child{
+    border-right: none;
 }
 .tab-menu .tab-title{
     position:absolute;
@@ -83,8 +91,13 @@ body, html {
     right: 0px;
     top: 76px;
 }
-.tab-menu i.fa{
-    position:absolute;
-    top: 20%;
-    right:50px  
+.tab-menu i.fa {
+    top:25px;
+    position: absolute;
+    right: 0px;
+    width: 130px;
+    text-align: center;
+}
+.tab-menu .tab-holder-middle, .tab-menu .tab-holder-middle i.fa, .tab-menu .tab-holder-middle .tab-title{
+    width:150px;
 }
