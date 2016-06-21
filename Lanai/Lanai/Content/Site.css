@@ -125,3 +125,20 @@ section.top-menu{
 	font-size: 24px;
 	font-weight: bold;
 }
+#menu{
+    display:flex;
+    justify-content:center;
+    list-style-type:none;
+    padding:0;
+}
+#menu li{
+    font-family: Montserrat;
+	font-size: 14px;
+	font-weight: bold;
+	text-transform: uppercase;
+    cursor:pointer;   
+}
+#menu li.active,#menu li:hover {
+    opacity:0.4;
+}
+
