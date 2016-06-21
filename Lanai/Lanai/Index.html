@@ -12,19 +12,23 @@
             
         </div>
         <div class="overlay-photo">
-            <section class="top-menu row">
-                <div id="logo" class="col-md-3 text-center col-sm-2">Lānaʻi Guide</div>
-                <div class="col-md-6 col-sm-8">
-                    <ul id="menu">
-                        <li class="col-lg-offset-1 col-md-2 active col-sm-offset-0">Explore</li>
-                        <li class="col-md-2">Places</li>
-                        <li class="col-md-2">Hikes</li>
-                        <li class="col-md-2">Driving</li>
-                        <li class="col-md-2">More</li>
-                    </ul>
-                </div>
-                <div class="col-md-3 col-sm-2" id="search"><i class="fa fa-search"></i></div>
-            </section>
+            <div class="container">
+                <section class="top-menu row">
+
+                    <div id="logo" class="col-md-3 text-center col-sm-2">Lānaʻi Guide</div>
+                    <div class="col-md-6 col-sm-8">
+                        <ul id="menu">
+                            <li class="col-lg-offset-1 col-md-2 active col-sm-offset-0">Explore</li>
+                            <li class="col-md-2">Places</li>
+                            <li class="col-md-2">Hikes</li>
+                            <li class="col-md-2">Driving</li>
+                            <li class="col-md-2">More</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-sm-2" id="search"><i class="fa fa-search"></i></div>
+
+                </section>
+            </div>
             <section class="intro-text">
                 <h1>Explore the rich natural and cultural history of Lānaʻi.</h1>
                 <span>Please select an option</span>
@@ -50,7 +54,14 @@
                 </ul>
             </section>
         </div>
-        <div class="container"></div>       
+        <div id="container">
+            <div id="viewButton">
+                <div class="field">
+                    <div class="small-button active">List</div>
+                    <div class="small-button">Map</div>
+                </div>
+            </div>
+        </div>       
     <script src="Scripts/jquery-3.0.0.min.js"></script>
     <script src="Scripts/angular.min.js"></script>
     <script src="Scripts/app/homeCtrl.js"></script>

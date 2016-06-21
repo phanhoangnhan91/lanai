@@ -24,9 +24,7 @@ body, html {
     position:relative;
     margin: 0px;
 }
-.container{
-    height:500px
-}
+
 .intro-text{  
     padding-top:20%;  
     font-family: Montserrat;   
@@ -149,3 +147,50 @@ section.top-menu{
     font-size:15px;
 }
 
+
+#container{
+    background-color: #eff4f8;
+	-webkit-box-shadow: 0 0 65px rgba(60,108,222,.25);
+	-moz-box-shadow: 0 0 65px rgba(60,108,222,.25);
+	box-shadow: 0 0 65px rgba(60,108,222,.25);
+    min-height:500px;
+}
+#viewButton{
+    display:flex;
+    justify-content:center;
+    padding-top:60px;
+}
+#viewButton .field{
+    width: 258px;
+    height: 50px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    border: solid 2px rgba(124, 153, 214,0.15);
+    display:block;
+    padding:3px;    
+    font-family: Montserrat;
+	font-size: 14px;
+	font-weight: bold;
+	text-transform: uppercase;
+    display:flex;
+}
+#viewButton .small-button{   	
+    text-align: center;
+    padding-top: 10px;
+    width: 124px;
+    height: 40px;
+    color: #b9c2d7;
+    cursor:pointer;
+}
+
+#viewButton .small-button.active,#viewButton .small-button:hover {   
+	-webkit-border-radius: 21px;
+	-moz-border-radius: 21px;
+	border-radius: 21px;
+	background-color: #fff;
+	-webkit-box-shadow: 0 5px 20px rgba(52,75,123,.15);
+	-moz-box-shadow: 0 5px 20px rgba(52,75,123,.15);
+	box-shadow: 0 5px 20px rgba(52,75,123,.15);
+    color: #6fc754;    
+}
