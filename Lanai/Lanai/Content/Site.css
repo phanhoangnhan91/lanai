@@ -194,3 +194,39 @@ section.top-menu{
 	box-shadow: 0 5px 20px rgba(52,75,123,.15);
     color: #6fc754;    
 }
+
+
+/*page*/
+.photo-item{
+    height:560px;
+    background-color:white;
+    border-radius: 10px;
+    background-position:center;
+    background-size:cover;
+    position:relative;
+}
+.no-padding{
+    padding:0!important;
+}
+.photo-item .card{   
+    position: absolute;
+    margin-left:10px;
+    bottom:10px;
+    width:calc(100% - 20px);
+	height: 255px;
+	-webkit-border-radius: 8px/5px;
+	-moz-border-radius: 8px/5px;
+	border-radius: 8px/5px;
+	background-color: #fff;
+	-webkit-box-shadow: 0 2px 10px rgba(45,45,46,.6);
+	-moz-box-shadow: 0 2px 10px rgba(45,45,46,.6);
+	box-shadow: 0 2px 10px rgba(45,45,46,.6);
+}
+#pageContent {
+    margin-top:60px;
+}
+@media (min-width: 1200px) {
+    #pageContent {
+        width: 1394px;
+    }
+}

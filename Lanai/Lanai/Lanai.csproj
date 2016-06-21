@@ -269,7 +269,10 @@
     <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
+    <Content Include="Images\4H9A8442-Edit.jpg" />
     <Content Include="Images\4H9A8705.jpg" />
+    <Content Include="Images\e7tgwz67m9d84b229tdvp09ng1i.jpg" />
+    <Content Include="Images\photos-10409dF4BsaRqVVI.jpg" />
     <Content Include="Index.html" />
     <Content Include="Scripts\ai.0.15.0-build58334.js" />
     <Content Include="Scripts\ai.0.15.0-build58334.min.js" />
