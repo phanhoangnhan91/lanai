@@ -49,7 +49,6 @@ body, html {
     width: 180px;
 	height: 120px;	
 	border-radius: 60px 0 0 60px;
-	background-color: #6fc754;
 	-webkit-box-shadow: 0 0 20px rgba(52,75,123,.15);
 	-moz-box-shadow: 0 0 20px rgba(52,75,123,.15);
 	box-shadow: 0 0 20px rgba(52,75,123,.15);
@@ -59,7 +58,6 @@ body, html {
     width: 180px;
 	height: 120px;	
 	border-radius: 0px 60px 60px 0px;
-	background-color:  rgba(0, 0, 0, 0.33);
 	-webkit-box-shadow: 0 0 20px rgba(52,75,123,.15);
 	-moz-box-shadow: 0 0 20px rgba(52,75,123,.15);
 	box-shadow: 0 0 20px rgba(52,75,123,.15);
@@ -67,7 +65,6 @@ body, html {
 }
 .tab-menu .tab-holder-middle{
     color: #fff;
-    background-color: rgba(0, 0, 0, 0.33);
 }
 .tab-menu .tab-title{
     font-family: Montserrat;
@@ -86,8 +83,13 @@ body, html {
     justify-content: center;
 }
 .tab-menu li{
+    cursor:pointer;
     position:relative;
     border-right: 1px solid rgba(69,75,74,1);
+    background-color:  rgba(0, 0, 0, 0.33);
+}
+.tab-menu li.active, .tab-menu li:hover{
+	background-color: #6fc754;
 }
 .tab-menu li:last-child{
     border-right: none;
