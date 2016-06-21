@@ -43,7 +43,7 @@ body, html {
 	font-size: 14px;
 	font-weight: bold;
 	text-transform: uppercase;
-	color: #e4e4e4;
+    opacity:.6;
 }
 .tab-menu{
     margin-top:50px;
@@ -124,12 +124,13 @@ section.top-menu{
     font-family: Arial;
 	font-size: 24px;
 	font-weight: bold;
+    margin-top:-10px;
 }
 #menu{
     display:flex;
     justify-content:center;
     list-style-type:none;
-    padding:0;
+    padding:0;    
 }
 #menu li{
     font-family: Montserrat;
@@ -140,5 +141,11 @@ section.top-menu{
 }
 #menu li.active,#menu li:hover {
     opacity:0.4;
+}
+#search{
+    opacity:0.6;
+}
+#search i{
+    font-size:15px;
 }
 
