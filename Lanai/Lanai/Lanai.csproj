@@ -372,6 +372,7 @@
     <Content Include="fonts\Montserrat-Regular.otf" />
     <Content Include="fonts\Montserrat-Bold.otf" />
     <Content Include="fonts\Montserrat-Black.otf" />
+    <Content Include="fonts\Montserrat-Light.otf" />
     <None Include="Project_Readme.html" />
   </ItemGroup>
   <PropertyGroup>

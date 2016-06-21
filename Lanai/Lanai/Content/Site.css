@@ -4,6 +4,14 @@
     src: url(/fonts/Montserrat-Regular.otf);
 }
 @font-face {
+    font-family: Montserrat-Bold;
+    src: url(/fonts/Montserrat-Bold.otf);
+}
+@font-face {
+    font-family: Montserrat-Light;
+    src: url(/fonts/Montserrat-Light.otf);
+}
+@font-face {
     font-family: Montserrat-Black;
     src: url(/fonts/Montserrat-Black.otf);
 }
@@ -35,7 +43,7 @@ body, html {
 
 .intro-text{  
     padding-top:20%;  
-    font-family: Montserrat;   
+    font-family: Montserrat-Bold;   
     text-align: center;
 }
 .intro-text h1{
@@ -73,7 +81,7 @@ body, html {
 .tab-menu .tab-holder-middle{
 }
 .tab-menu .tab-title{
-    font-family: Montserrat;
+    font-family: Montserrat-Bold;
 	font-size: 14px;
 	font-weight: bold;
 	text-transform: uppercase;
@@ -139,7 +147,7 @@ section.top-menu{
     padding:0;    
 }
 #menu li{
-    font-family: Montserrat;
+    font-family: Montserrat-Bold;
 	font-size: 14px;
 	font-weight: bold;
 	text-transform: uppercase;
@@ -177,7 +185,7 @@ section.top-menu{
     border: solid 2px rgba(124, 153, 214,0.15);
     display:block;
     padding:3px;    
-    font-family: Montserrat;
+    font-family: Montserrat-Bold;
 	font-size: 14px;
 	font-weight: bold;
 	text-transform: uppercase;
@@ -260,13 +268,13 @@ section.top-menu{
 }
 .photo-item .title{
     margin-top:25px;
-    font-family: Montserrat;
+    font-family: Montserrat-Bold;
 	font-size: 18px;
 	color: #3c6cde;
 }
 .photo-item .description{
     padding-top:7px;
-    font-family: Montserrat;
+    font-family: Montserrat-Light;
 	font-size: 14px;
 	color: #8b94ae;
     height:105px;
