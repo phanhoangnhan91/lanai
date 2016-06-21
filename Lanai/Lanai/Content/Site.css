@@ -225,8 +225,44 @@ section.top-menu{
 #pageContent {
     margin-top:60px;
 }
-@media (min-width: 1200px) {
+@media (min-width: 1200px) {/*todo more device*/
     #pageContent {
         width: 1394px;
     }
+}
+.photo-item .top-info{
+    height:45px;
+   -webkit-box-shadow: 0 0 15px rgba(60,108,222,.15);
+	-moz-box-shadow: 0 0 15px rgba(60,108,222,.15);
+	box-shadow: 0 0 15px rgba(60,108,222,.15);
+}
+.photo-item .top-info div{
+    height:45px;
+    padding-top: 12px;
+}
+.photo-item .top-info i.fa{
+    font-size:16px;
+    opacity:.5;
+}
+.photo-item .top-info .counter{
+    font-family: Montserrat;
+	font-size: 16px;
+	color: #7c99d6;
+    font-weight:bold;
+    margin-left:5px;
+}
+.photo-item .title{
+    margin-top:25px;
+    font-family: Montserrat;
+	font-size: 18px;
+	font-weight: bold;
+	color: #3c6cde;
+}
+.photo-item .description{
+    padding-top:7px;
+    font-family: Montserrat;
+	font-size: 14px;
+	color: #8b94ae;
+    height:105px;
+    overflow:hidden;
 }
