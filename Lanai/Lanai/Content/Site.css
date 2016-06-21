@@ -45,11 +45,9 @@ body, html {
 .tab-menu{
     margin-top:50px;
 }
-.tab-menu .tab-holder-first{
+.tab-menu li:first-child{
     width: 180px;
-	height: 120px;
-	-webkit-border-radius: 60px 0 0 60px;
-	-moz-border-radius: 60px 0 0 60px;
+	height: 120px;	
 	border-radius: 60px 0 0 60px;
 	background-color: #6fc754;
 	-webkit-box-shadow: 0 0 20px rgba(52,75,123,.15);
@@ -57,9 +55,19 @@ body, html {
 	box-shadow: 0 0 20px rgba(52,75,123,.15);
     color: #fff;
 }
+.tab-menu li:last-child{
+    width: 180px;
+	height: 120px;	
+	border-radius: 0px 60px 60px 0px;
+	background-color:  rgba(0, 0, 0, 0.33);
+	-webkit-box-shadow: 0 0 20px rgba(52,75,123,.15);
+	-moz-box-shadow: 0 0 20px rgba(52,75,123,.15);
+	box-shadow: 0 0 20px rgba(52,75,123,.15);
+    color: #fff;
+}
 .tab-menu .tab-holder-middle{
     color: #fff;
-    background-color: rgba(0, 0, 0, 0.16);
+    background-color: rgba(0, 0, 0, 0.33);
 }
 .tab-menu .tab-title{
     font-family: Montserrat;
@@ -97,6 +105,10 @@ body, html {
     right: 0px;
     width: 130px;
     text-align: center;
+}
+.tab-menu li:last-child .tab-title, .tab-menu li:last-child i.fa{
+    right:initial;
+    left:0px;
 }
 .tab-menu .tab-holder-middle, .tab-menu .tab-holder-middle i.fa, .tab-menu .tab-holder-middle .tab-title{
     width:150px;
