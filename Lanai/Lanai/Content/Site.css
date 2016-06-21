@@ -1,4 +1,12 @@
 ﻿/* tab and photo*/
+@font-face {
+    font-family: Montserrat;
+    src: url(/fonts/Montserrat-Regular.otf);
+}
+@font-face {
+    font-family: Montserrat-Black;
+    src: url(/fonts/Montserrat-Black.otf);
+}
 .overlay-photo{
     color: #fff;
 }
@@ -31,10 +39,10 @@ body, html {
     text-align: center;
 }
 .intro-text h1{
+    font-family: Montserrat-Black;
 	font-size: 60px;
     padding-left:20%;
     padding-right:20%;
-    font-weight:bolder;
 }
 .intro-text span{
     padding-top:30px;
@@ -248,14 +256,12 @@ section.top-menu{
     font-family: Montserrat;
 	font-size: 16px;
 	color: #7c99d6;
-    font-weight:bold;
     margin-left:5px;
 }
 .photo-item .title{
     margin-top:25px;
     font-family: Montserrat;
 	font-size: 18px;
-	font-weight: bold;
 	color: #3c6cde;
 }
 .photo-item .description{

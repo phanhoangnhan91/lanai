@@ -369,6 +369,9 @@
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="packages.config" />
+    <Content Include="fonts\Montserrat-Regular.otf" />
+    <Content Include="fonts\Montserrat-Bold.otf" />
+    <Content Include="fonts\Montserrat-Black.otf" />
     <None Include="Project_Readme.html" />
   </ItemGroup>
   <PropertyGroup>
