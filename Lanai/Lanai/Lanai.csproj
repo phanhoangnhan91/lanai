@@ -265,9 +265,11 @@
     <Content Include="Content\font-awesome.css" />
     <Content Include="Content\font-awesome.min.css" />
     <Content Include="Content\Site.css" />
+    <Content Include="Content\lanai-icon.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="fonts\lanai-font.svg" />
     <Content Include="Global.asax" />
     <Content Include="Images\4H9A8442-Edit.jpg" />
     <Content Include="Images\4H9A8705.jpg" />
@@ -373,6 +375,9 @@
     <Content Include="fonts\Montserrat-Bold.otf" />
     <Content Include="fonts\Montserrat-Black.otf" />
     <Content Include="fonts\Montserrat-Light.otf" />
+    <Content Include="fonts\lanai-font.eot" />
+    <Content Include="fonts\lanai-font.ttf" />
+    <Content Include="fonts\lanai-font.woff" />
     <None Include="Project_Readme.html" />
   </ItemGroup>
   <PropertyGroup>
