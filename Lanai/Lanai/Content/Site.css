@@ -252,8 +252,8 @@ section.top-menu{
     margin-top:60px;
 }
 @media (min-width: 1200px) {/*todo more device*/
-    #pageContent {
-        width: 1394px;
+    .container {
+        width: 1440px;
     }
 }
 .photo-item .top-info{
