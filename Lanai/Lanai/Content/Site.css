@@ -140,20 +140,30 @@ section.top-menu{
 	font-weight: bold;
     margin-top:-10px;
 }
-#menu{
+.menu{
     display:flex;
     justify-content:center;
     list-style-type:none;
     padding:0;    
 }
-#menu li{
+.menu li{
     font-family: Montserrat-Bold;
 	font-size: 14px;
 	font-weight: bold;
 	text-transform: uppercase;
     cursor:pointer;   
 }
-#menu li.active,#menu li:hover {
+.uppercase-text{
+     font-family: Montserrat-Bold;
+	font-size: 14px;
+	font-weight: bold;
+	text-transform: uppercase;
+    cursor:pointer;
+}
+.opacity-3{
+    opacity:.3;
+}
+.menu li.active,.menu li:hover {
     opacity:0.4;
 }
 #search{
@@ -333,5 +343,35 @@ section.top-menu{
 }
 #loadMore{
     margin-top:15px;
+}
+#footer{
+    margin-top:130px;
+	height: 300px;
+	background-color: #0d1f2d;
+    color:#fff;
+}
+.social-icon i{
+    font-size:20px;
+    margin-right: 30px;
+}
+#footer .line{
+	height: 1px;
+	-webkit-border-radius: 1px 0 0;
+	-moz-border-radius: 1px 0 0;
+	border-radius: 1px 0 0;
+    background-color: #fff;
+    opacity:0.05;
+    margin-top:57px;
+}
+.footer-content{
+    margin-top:124px;
+}
+#download-icon{
+    background-image:url(/Images/Download.png);
+    background-position:center;
+    background-size:cover;
+    width: 140px;
+	height: 42px;
+    background-color:transparent;
 }
 
