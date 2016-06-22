@@ -172,6 +172,12 @@ section.top-menu{
 .menu li.active,.menu li:hover {
     opacity:0.4;
 }
+.menu li.more:hover {
+    opacity:1;
+}
+.menu li.more button:hover {
+    opacity:.4;
+}
 #search{
     opacity:0.6;
     margin-top: -5px;
@@ -420,5 +426,11 @@ section.top-menu{
 }
 .menu.privacy li{
     padding-right:60px;
+}
+
+.more-button{
+    border: none;
+    background: transparent;
+    text-transform: uppercase;
 }
 
