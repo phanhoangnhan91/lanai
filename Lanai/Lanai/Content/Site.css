@@ -254,7 +254,10 @@ section.top-menu{
 #pageContent {
     margin-top:60px;
 }
-@media (min-width: 1200px) {/*todo more device*/
+.container {
+        width: 100%;
+}
+@media (min-width: 1440px) {/*todo more device*/
     .container {
         width: 1440px;
     }
