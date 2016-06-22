@@ -23,7 +23,18 @@
                             <li class="col-md-2">Places</li>
                             <li class="col-md-2">Hikes</li>
                             <li class="col-md-2">Driving</li>
-                            <li class="col-md-2">More</li>
+                            <li class="col-md-2">
+                                <div class="dropdown">
+                                    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
+                                        More
+                                        <span class="caret"></span>
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">Downloads</a></li>
+                                        <li><a href="#">About</a></li>
+                                    </ul>
+                                </div>
+                            </li>
                         </ul>
                     </div>
                     <div class="col-md-3 col-sm-2 text-right" id="search">
@@ -135,7 +146,9 @@
                 </div>
             </div>
         </div>       
-    <script src="Scripts/jquery-3.0.0.min.js"></script>
+
+    <script src="Scripts/jquery-1.9.1.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
     <script src="Scripts/angular.min.js"></script>
     <script src="Scripts/app/homeCtrl.js"></script>
 </body>
