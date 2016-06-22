@@ -307,6 +307,31 @@ section.top-menu{
 .photo-item .label-icon.lanai-hike{
     background-color: #82d0f4;
 }
-
-
+.button{    
+	height: 50px;
+    min-width: 170px;
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+	border-radius: 25px;
+	background-color: #fff;
+	-webkit-box-shadow: 0 5px 20px rgba(52,75,123,.15);
+	-moz-box-shadow: 0 5px 20px rgba(52,75,123,.15);
+	box-shadow: 0 5px 20px rgba(52,75,123,.15);
+    font-family: Montserrat-Bold;
+	font-size: 14px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #6fc754;
+    padding:0 15px 0 15px
+}
+.button:focus{
+    outline:initial;
+}
+.content-center{
+    display:flex;
+    justify-content:center;
+}
+#loadMore{
+    margin-top:15px;
+}
 
