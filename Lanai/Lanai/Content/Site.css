@@ -42,7 +42,7 @@ body, html {
 }
 
 .intro-text{  
-    padding-top:20%;  
+    padding-top:20vh;  
     font-family: Montserrat-Bold;   
     text-align: center;
 }
@@ -260,6 +260,9 @@ section.top-menu{
 @media (min-width: 1440px) {/*todo more device*/
     .container {
         width: 1440px;
+    }
+    .intro-text {
+        padding-top: 20%;
     }
 }
 .photo-item .top-info{
