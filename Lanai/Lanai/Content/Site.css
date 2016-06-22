@@ -335,7 +335,11 @@ section.top-menu{
 	font-weight: bold;
 	text-transform: uppercase;
 	color: #6fc754;
-    padding:0 15px 0 15px
+    padding:0 15px 0 15px;
+    border-color: transparent;
+}
+.button:hover{
+    opacity:.6;
 }
 .button:focus{
     outline:initial;
