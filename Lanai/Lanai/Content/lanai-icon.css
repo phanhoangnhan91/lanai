@@ -53,22 +53,6 @@
 .lanai-marker-light:before {
   content: "\65";
 }
-.lanai-photo:before {
-  content: "\66";
-}
 .lanai-place:before {
-  content: "\67";
-}
-.lanai-video:before {
-  content: "\68";
-}
-.lanai-voice:before {
-  content: "\69";
-}
-.lanai-car{
-    -moz-transform: scaleX(-1);
-    -o-transform: scaleX(-1);
-    -webkit-transform: scaleX(-1);
-    transform: scaleX(-1);
-    filter: FlipH;
+  content: "\66";
 }
