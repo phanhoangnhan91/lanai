@@ -455,4 +455,11 @@ section.top-menu{
     color: #fff;
     background-color: rgba(63,72,92,.2);
 }
+.dropdown.open .fa-chevron-down{
+    display:none;   
+}
+.dropdown.open .fa-chevron-up{
+    display:initial!important;   
+}
+
 
