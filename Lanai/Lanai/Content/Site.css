@@ -283,3 +283,20 @@ section.top-menu{
 .m-b-50{
     margin-bottom:50px;
 }
+.photo-item .label-icon{
+    width: 50px;
+	height: 40px;
+	-webkit-border-radius: 15px 0 0 15px/17px 0 0 17px;
+	-moz-border-radius: 15px 0 0 15px/17px 0 0 17px;
+	border-radius: 15px 0 0 15px/17px 0 0 17px;
+    position:absolute;
+    top:20px;
+    right:0px;
+    text-align:center;
+    line-height: 50px;
+	background-color: #746dbd;
+}
+.photo-item .label-icon i{
+    font-size:24px;
+    color: #fff;
+}
