@@ -295,8 +295,18 @@ section.top-menu{
     text-align:center;
     line-height: 50px;
 	background-color: #746dbd;
-}
-.photo-item .label-icon i{
     font-size:24px;
     color: #fff;
 }
+.photo-item .label-icon.lanai-car{
+    background-color: #f692b4;
+}
+.photo-item .label-icon.lanai-place{
+    background-color: #746dbd;
+}
+.photo-item .label-icon.lanai-hike{
+    background-color: #82d0f4;
+}
+
+
+
