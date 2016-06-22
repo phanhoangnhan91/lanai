@@ -173,9 +173,13 @@ section.top-menu{
 }
 #search{
     opacity:0.6;
+    margin-top: -5px;
 }
 #search i{
     font-size:15px;
+    position: absolute;
+    right: 134px;
+    top: 6px;
 }
 #search input{
     width: 160px;
@@ -188,6 +192,8 @@ section.top-menu{
     font-family: Montserrat-Light;
 	font-size: 14px;
     padding:0 15px 0 35px;
+    position: absolute;
+    right: 0px;
 }
 #search input:focus {
    outline:initial;
